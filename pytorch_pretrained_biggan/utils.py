@@ -41,7 +41,7 @@ def convert_to_images(obj):
             list of Pillow Images of size (height, width)
     """
     try:
-        import PIL
+        from PIL import Image
     except ImportError:
         raise ImportError("Please install Pillow to use images: pip install Pillow")
 
@@ -54,7 +54,7 @@ def convert_to_images(obj):
     img = []
     for i, out in enumerate(obj):
         out_array = np.asarray(np.uint8(out), dtype=np.uint8)
-        img.append(PIL.Image.fromarray(out_array))
+        img.append(Image.fromarray(out_array))
     return img
 
 
