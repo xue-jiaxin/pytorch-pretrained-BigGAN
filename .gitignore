@@ -108,3 +108,4 @@ venv.bak/
 
 # models
 models/
+.DS_Store

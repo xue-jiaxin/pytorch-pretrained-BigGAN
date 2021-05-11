@@ -9,6 +9,9 @@
 
     This version only comprises the generator (since the discriminator's weights are not released).
     This version only comprises the "deep" version of BigGAN (see publication).
+
+    Modified by Erik Härkönen:
+    * Added support for per-layer latent vectors
 """
 from __future__ import (absolute_import, division, print_function, unicode_literals)
 
@@ -226,7 +229,7 @@ class Generator(nn.Module):
         self.tanh = nn.Tanh()
 
     def forward(self, cond_vector, truncation):
-        z = self.gen_z(cond_vector)
+        z = self.gen_z(cond_vector[0])
 
         # We use this conversion step to be able to use TF weights:
         # TF convention on shape is [batch, height, width, channels]
@@ -234,11 +237,17 @@ class Generator(nn.Module):
         z = z.view(-1, 4, 4, 16 * self.config.channel_width)
         z = z.permute(0, 3, 1, 2).contiguous()
 
+        cond_idx = 1
+        layer_idx = 1
         for i, layer in enumerate(self.layers):
             if isinstance(layer, GenBlock):
-                z = layer(z, cond_vector, truncation)
+                #print(f"connecting latent z to intermediate layer: {layer_idx}")
+                z = layer(z, cond_vector[cond_idx], truncation)
+                cond_idx += 1
             else:
                 z = layer(z)
+
+            layer_idx += 1
 
         z = self.bn(z, truncation)
         z = self.relu(z)
@@ -285,14 +294,26 @@ class BigGAN(nn.Module):
         self.config = config
         self.embeddings = nn.Linear(config.num_classes, config.z_dim, bias=False)
         self.generator = Generator(config)
+        self.n_latents = len(config.layers) + 1 # difference : one for gen_z + one per layer
 
-    def forward(self, z, class_label, truncation):
+    # Important modification on orignal bigGAN
+    def forward(self, z, class_label, truncation): 
+        #print(f"Forwarding ! and there are {self.n_latents} layes")
         assert 0 < truncation <= 1
 
-        embed = self.embeddings(class_label)
-        cond_vector = torch.cat((z, embed), dim=1)
+        if not isinstance(z, list):
+            z = self.n_latents*[z]
+        
+        if isinstance(class_label, list):
+            embed = [self.embeddings(l) for l in class_label]
+        else:
+            embed = self.n_latents*[self.embeddings(class_label)]
+        
+        assert len(z) == self.n_latents, f'Expected {self.n_latents} latents, got {len(z)}'
+        assert len(embed) == self.n_latents, f'Expected {self.n_latents} class vectors, got {len(class_label)}'
 
-        z = self.generator(cond_vector, truncation)
+        cond_vectors = [torch.cat((z, e), dim=1) for (z, e) in zip(z, embed)]
+        z = self.generator(cond_vectors, truncation)
         return z
 
 
