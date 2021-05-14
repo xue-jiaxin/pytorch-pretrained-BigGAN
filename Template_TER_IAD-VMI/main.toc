@@ -2,23 +2,31 @@
 \babel@toc {french}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}État de l'art}{2}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Contribution}{3}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Rédaction en \LaTeX }{4}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Découpage d'un chapitre}{4}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Listes}{5}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Listes à puces}{5}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Listes numérotées}{5}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Listes descriptives}{5}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Listes imbriquées}{5}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Mathématiques}{6}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Figures}{7}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Inclusion d'images}{7}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Dessin}{7}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Tables}{7}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Théorèmes}{8}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Algorithmes et code}{8}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Algorithmes en pseudo-code}{8}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Listings : extraits de code source}{9}{subsection.4.7.2}%
-\contentsline {section}{\numberline {4.8}Bibliographie}{10}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Conclusion}{11}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Tables}{12}{appendix.A}%
+\contentsline {section}{\numberline {2.1}La similarité visuelle en science cognitives}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}La similarité visuelle et l’apprentissage profond}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Les GANs et le transfert du style}{3}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Méthodes étudiées}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Generative Adversarial Network}{4}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Pix2Pix}{4}{section.3.2}%
+\contentsline {section}{\numberline {3.3}BigGAN et espace de latent}{4}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Méthodes expérimentales}{5}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusion et Perspectives}{6}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Rédaction en \LaTeX }{7}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Découpage d'un chapitre}{7}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Listes}{8}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Listes à puces}{8}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Listes numérotées}{8}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Listes descriptives}{8}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Listes imbriquées}{8}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Mathématiques}{9}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Figures}{10}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Inclusion d'images}{10}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Dessin}{10}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Tables}{10}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Théorèmes}{11}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Algorithmes et code}{11}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Algorithmes en pseudo-code}{11}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Listings : extraits de code source}{12}{subsection.6.7.2}%
+\contentsline {section}{\numberline {6.8}Bibliographie}{13}{section.6.8}%
+\contentsline {chapter}{\numberline {7}Conclusion}{14}{chapter.7}%
+\contentsline {chapter}{\numberline {A}Tables}{15}{appendix.A}%

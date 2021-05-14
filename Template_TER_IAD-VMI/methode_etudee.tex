@@ -1,0 +1,10 @@
+\chapter{Méthodes étudiées}
+Depuis que Ian Goodfellow a proposé le GAN (Generative Adversarial Network) en 2014, la recherche sur le GAN est très active. Diverses variantes du GAN ne cessent d'apparaître. Yann LeCun a même déclaré que le GAN était “adversarial training is the coolest thing since sliced bread”. Nous nous donc focaliserons dans un sur la génération de paires d’images visuellement similaires via des GANs. 
+
+\section{Generative Adversarial Network}
+
+Generative Adversarial Network (GAN) est une méthode d'apprentissage non supervisé, consistant à faire jouer deux réseaux neuronaux l'un contre l'autre. Cette méthode a été proposée en 2014 par Ian Goodfellow\cite{goodfellow2014generative}. Les réseaux adversariens génératifs se composent d'un réseau génératif et d'un réseau discriminatif. Le réseau génératif prend en entrée des échantillons aléatoires de l'espace latent, et sa sortie doit imiter autant que possible les échantillons réels de l'ensemble d'apprentissage. L'entrée du réseau discriminant est l'échantillon réel ou la sortie du réseau génératif, et son but est de distinguer autant que possible la sortie du réseau génératif de l'échantillon réel. Le réseau génératif, quant à lui, doit tromper le réseau discriminant autant que possible. Les deux réseaux jouent l'un contre l'autre et ajustent constamment leurs paramètres, dans le but ultime de rendre le réseau discriminant incapable de déterminer si la sortie du réseau génératif est vraie.
+
+\section{Pix2Pix}
+
+\section{BigGAN et espace de latent}

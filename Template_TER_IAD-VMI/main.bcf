@@ -2182,9 +2182,10 @@
     <bcf:datasource type="file" datatype="bibtex">./resources/bib/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">pakin2020comprehensive</bcf:citekey>
+    <bcf:citekey order="1">goodfellow2014generative</bcf:citekey>
     <bcf:citekey order="2">pakin2020comprehensive</bcf:citekey>
-    <bcf:citekey order="2">RusselNorvig</bcf:citekey>
+    <bcf:citekey order="3">pakin2020comprehensive</bcf:citekey>
+    <bcf:citekey order="3">RusselNorvig</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
