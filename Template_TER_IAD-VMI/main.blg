@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[1] Config.pm:307> INFO - Logfile is 'main.blg'
-[438] biber-darwin:322> INFO - === Fri May 14, 2021, 19:15:44
-[487] Biber.pm:415> INFO - Reading 'main.bcf'
-[916] Biber.pm:943> INFO - Found 4 citekeys in bib section 0
-[967] Biber.pm:4256> INFO - Processing section 0
-[968] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[968] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[993] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
-[995] bibtex.pm:1653> INFO - LaTeX decoding ...
-[1022] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
-[1205] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1205] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1205] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
-[1205] Biber.pm:4090> INFO - No sort tailoring available for locale 'fr-FR'
-[1214] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1236] bbl.pm:755> INFO - Output to main.bbl
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[136] biber-darwin:322> INFO - === Fri May 14, 2021, 21:32:59
+[176] Biber.pm:415> INFO - Reading 'main.bcf'
+[389] Biber.pm:943> INFO - Found 10 citekeys in bib section 0
+[421] Biber.pm:4256> INFO - Processing section 0
+[422] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[422] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[439] Biber.pm:4455> INFO - Looking for bibtex format file 'references.bib' for section 0
+[440] bibtex.pm:1653> INFO - LaTeX decoding ...
+[470] bibtex.pm:1471> INFO - Found BibTeX data source 'references.bib'
+[637] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[637] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[637] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
+[637] Biber.pm:4090> INFO - No sort tailoring available for locale 'fr-FR'
+[647] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[657] bbl.pm:755> INFO - Output to main.bbl

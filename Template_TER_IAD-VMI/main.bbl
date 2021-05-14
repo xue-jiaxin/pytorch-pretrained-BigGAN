@@ -19,6 +19,235 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{hebart2020revealing}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b0afb2902bffcd30e03ac1604d080ef7}{%
+           family={Hebart},
+           familyi={H\bibinitperiod},
+           given={Martin\bibnamedelima N},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=013b295473c29c0f078443d54ce57530}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Charles\bibnamedelima Y},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=7ce656211d86e86ce0bc38f6a47fafe7}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=db996b539609e1b250389085e4df36d9}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Chris\bibnamedelima I},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{357a4a59380cb54e840ae6fde36012d6}
+      \strng{fullhash}{4d6f0c724142ded318957d5152bcdbb3}
+      \strng{bibnamehash}{4d6f0c724142ded318957d5152bcdbb3}
+      \strng{authorbibnamehash}{4d6f0c724142ded318957d5152bcdbb3}
+      \strng{authornamehash}{357a4a59380cb54e840ae6fde36012d6}
+      \strng{authorfullhash}{4d6f0c724142ded318957d5152bcdbb3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Human Behaviour}
+      \field{number}{11}
+      \field{title}{Revealing the multidimensional mental representations of natural objects underlying human similarity judgements}
+      \field{volume}{4}
+      \field{year}{2020}
+      \field{pages}{1173\bibrangedash 1185}
+      \range{pages}{13}
+    \endentry
+    \entry{pramod2016computational}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b951bfbcbd1670ce062cb69bf293c9ef}{%
+           family={Pramod},
+           familyi={P\bibinitperiod},
+           given={RT},
+           giveni={R\bibinitperiod}}}%
+        {{hash=46b43aa00e24f569752649f9291c12cf}{%
+           family={Arun},
+           familyi={A\bibinitperiod},
+           given={SP},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5052e84198eed8f586ad2820da22f936}
+      \strng{fullhash}{5052e84198eed8f586ad2820da22f936}
+      \strng{bibnamehash}{5052e84198eed8f586ad2820da22f936}
+      \strng{authorbibnamehash}{5052e84198eed8f586ad2820da22f936}
+      \strng{authornamehash}{5052e84198eed8f586ad2820da22f936}
+      \strng{authorfullhash}{5052e84198eed8f586ad2820da22f936}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Do computational models differ systematically from human object perception?}
+      \field{year}{2016}
+      \field{pages}{1601\bibrangedash 1609}
+      \range{pages}{9}
+    \endentry
+    \entry{german2020can}{article}{}
+      \name{author}{2}{}{%
+        {{hash=771984181500ffdeaa227b9486391e11}{%
+           family={{German}},
+           familyi={G\bibinitperiod},
+           given={Joseph\bibnamedelima Scott},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4e5539055dd250cdec438f5877d88e37}{%
+           family={{Jacobs}},
+           familyi={J\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6f77367f3739289c5396b3b104d860f}
+      \strng{fullhash}{f6f77367f3739289c5396b3b104d860f}
+      \strng{bibnamehash}{f6f77367f3739289c5396b3b104d860f}
+      \strng{authorbibnamehash}{f6f77367f3739289c5396b3b104d860f}
+      \strng{authornamehash}{f6f77367f3739289c5396b3b104d860f}
+      \strng{authorfullhash}{f6f77367f3739289c5396b3b104d860f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vision Research}
+      \field{title}{Can machine learning account for human visual object shape similarity judgments}
+      \field{volume}{167}
+      \field{year}{2020}
+      \field{pages}{87\bibrangedash 99}
+      \range{pages}{13}
+    \endentry
+    \entry{peterson2018evaluating}{article}{}
+      \name{author}{3}{}{%
+        {{hash=da56be2e50c23d3816149c77115f4dec}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Joshua\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7b3b75d15a997ed3e62c8729114d3f27}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={Joshua\bibnamedelima T},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=15f19cfb916ba0b8afb494f250ea80a2}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={Thomas\bibnamedelima L},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{21659640b5684e68b1059d1e74e18da5}
+      \strng{fullhash}{21659640b5684e68b1059d1e74e18da5}
+      \strng{bibnamehash}{21659640b5684e68b1059d1e74e18da5}
+      \strng{authorbibnamehash}{21659640b5684e68b1059d1e74e18da5}
+      \strng{authornamehash}{21659640b5684e68b1059d1e74e18da5}
+      \strng{authorfullhash}{21659640b5684e68b1059d1e74e18da5}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive science}
+      \field{number}{8}
+      \field{title}{Evaluating (and improving) the correspondence between deep neural networks and human representations}
+      \field{volume}{42}
+      \field{year}{2018}
+      \field{pages}{2648\bibrangedash 2669}
+      \range{pages}{22}
+    \endentry
+    \entry{chen2019this}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=5d16fc4f6ece31c69bad85d293077505}{%
+           family={{Chen}},
+           familyi={C\bibinitperiod},
+           given={Chaofan},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c4804b1243ac899b45a275f7f32041f6}{%
+           family={{Li}},
+           familyi={L\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=288b913a1466c4bbf7aad24c89908ba6}{%
+           family={{Tao}},
+           familyi={T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b225c3cb337031e602486f8fa6870ce2}{%
+           family={{Barnett}},
+           familyi={B\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ed6b4fef67abb4c043b72d1843b36826}{%
+           family={{Rudin}},
+           familyi={R\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2e5771b18de86203437340b7d6644874}{%
+           family={{Su}},
+           familyi={S\bibinitperiod},
+           given={Jonathan\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1369513d760a90d8e25a7fe556b28d66}
+      \strng{fullhash}{d87961ae2ba23a4f4bca997ef244f089}
+      \strng{bibnamehash}{d87961ae2ba23a4f4bca997ef244f089}
+      \strng{authorbibnamehash}{d87961ae2ba23a4f4bca997ef244f089}
+      \strng{authornamehash}{1369513d760a90d8e25a7fe556b28d66}
+      \strng{authorfullhash}{d87961ae2ba23a4f4bca997ef244f089}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{This Looks Like That: Deep Learning for Interpretable Image Recognition}
+      \field{volume}{32}
+      \field{year}{2019}
+      \field{pages}{8930\bibrangedash 8941}
+      \range{pages}{12}
+    \endentry
+    \entry{kim2020deformable}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f8f0e9b5abeae5268b4b53251848e2a9}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sunnie\bibnamedelima SY},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=df0bd9593e772f1945f769e5da4a2bc8}{%
+           family={Kolkin},
+           familyi={K\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ee5cb8731e94e7bd71d315297e788a53}{%
+           family={Salavon},
+           familyi={S\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ff0a4d0b76572e74caca7700bc7c1fb6}{%
+           family={Shakhnarovich},
+           familyi={S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0bcc5b40a7697ea526b93aad7f9665f}
+      \strng{fullhash}{5ba0214de8f1287b8423d95d4ea33532}
+      \strng{bibnamehash}{5ba0214de8f1287b8423d95d4ea33532}
+      \strng{authorbibnamehash}{5ba0214de8f1287b8423d95d4ea33532}
+      \strng{authornamehash}{b0bcc5b40a7697ea526b93aad7f9665f}
+      \strng{authorfullhash}{5ba0214de8f1287b8423d95d4ea33532}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2003.11038}
+      \field{title}{Deformable Style Transfer}
+      \field{year}{2020}
+    \endentry
     \entry{goodfellow2014generative}{article}{}
       \name{author}{8}{}{%
         {{hash=d4f74ef4c79f3bb1e51e378184d8850e}{%
@@ -68,8 +297,8 @@
       \strng{authorbibnamehash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
       \strng{authornamehash}{8b5c7065f4df4f81627df9460343f166}
       \strng{authorfullhash}{5afe3eb3246d0b46f32cdc5ff3e9d6b8}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1406.2661}
@@ -105,8 +334,8 @@
       \strng{authorbibnamehash}{18664a8c078ce7dff4c499de4e40bf2f}
       \strng{authornamehash}{dd9b478c7b76d20d978868251cf3ad35}
       \strng{authorfullhash}{18664a8c078ce7dff4c499de4e40bf2f}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}
@@ -139,8 +368,8 @@
       \strng{authorbibnamehash}{3164af52b8e69894e92b64552f9e237b}
       \strng{authornamehash}{3164af52b8e69894e92b64552f9e237b}
       \strng{authorfullhash}{3164af52b8e69894e92b64552f9e237b}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1809.11096}
@@ -176,8 +405,8 @@
       \strng{authorbibnamehash}{d060f7ffe5e6db13978c544f587fd77c}
       \strng{authornamehash}{4fbb15dd2f52c2bb738a0a755815bbec}
       \strng{authorfullhash}{d060f7ffe5e6db13978c544f587fd77c}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2004.02546}

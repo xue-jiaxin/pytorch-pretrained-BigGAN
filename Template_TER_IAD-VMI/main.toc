@@ -2,14 +2,14 @@
 \babel@toc {french}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}État de l'art}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}La similarité visuelle en science cognitives}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}La similarité visuelle et l’apprentissage profond}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Les GANs et le transfert du style}{3}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Méthodes étudiées}{4}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Generative Adversarial Network}{4}{section.3.1}%
-\contentsline {section}{\numberline {3.2}pixp2ix}{4}{section.3.2}%
-\contentsline {section}{\numberline {3.3}BigGAN et Espace de Latent}{5}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Méthodes expérimentales}{6}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusion et Perspectives}{7}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusion}{8}{chapter.6}%
-\contentsline {chapter}{Références}{9}{chapter*.2}%
+\contentsline {section}{\numberline {2.1}Similarité visuelle en science cognitives}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Similarité visuelle}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}transfert du style et GAN}{3}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Méthodes étudiées}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Generative Adversarial Network}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}pixp2ix}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}BigGAN et Espace de Latent}{7}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Méthodes expérimentales}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}pix2pix avec PASCAL}{9}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Conclusion et Perspectives}{12}{chapter.5}%
+\contentsline {chapter}{Références}{13}{chapter*.9}%

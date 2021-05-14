@@ -1,13 +1,13 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [0][-]{chapter.2}{État de l'art}{}% 2
-\BOOKMARK [1][-]{section.2.1}{La similarité visuelle en science cognitives}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{La similarité visuelle et l’apprentissage profond}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.3}{Les\040GANs\040et\040le\040transfert\040du\040style}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.1}{Similarité visuelle en science cognitives}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Similarité visuelle}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{transfert\040du\040style\040et\040GAN}{chapter.2}% 5
 \BOOKMARK [0][-]{chapter.3}{Méthodes étudiées}{}% 6
 \BOOKMARK [1][-]{section.3.1}{Generative\040Adversarial\040Network}{chapter.3}% 7
 \BOOKMARK [1][-]{section.3.2}{pixp2ix}{chapter.3}% 8
 \BOOKMARK [1][-]{section.3.3}{BigGAN\040et\040Espace\040de\040Latent}{chapter.3}% 9
 \BOOKMARK [0][-]{chapter.4}{Méthodes expérimentales}{}% 10
-\BOOKMARK [0][-]{chapter.5}{Conclusion\040et\040Perspectives}{}% 11
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 12
-\BOOKMARK [0][-]{chapter*.2}{Références}{}% 13
+\BOOKMARK [1][-]{section.4.1}{pix2pix\040avec\040PASCAL}{chapter.4}% 11
+\BOOKMARK [0][-]{chapter.5}{Conclusion\040et\040Perspectives}{}% 12
+\BOOKMARK [0][-]{chapter*.9}{Références}{}% 13
