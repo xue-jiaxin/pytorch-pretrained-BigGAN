@@ -3,8 +3,19 @@ Depuis que Ian Goodfellow a proposé le GAN (Generative Adversarial Network) en 
 
 \section{Generative Adversarial Network}
 
-Generative Adversarial Network (GAN) est une méthode d'apprentissage non supervisé, consistant à faire jouer deux réseaux neuronaux l'un contre l'autre. Cette méthode a été proposée en 2014 par Ian Goodfellow\cite{goodfellow2014generative}. Les GANs se composent d'un réseau génératif (générateur) et d'un réseau discriminatif (discriminateur). Dans entraîner GAN, le générateur génère un échantillon (ex. une image), tandis que son adversaire, le discriminateur essaie de distinguer si cet échantillon est réel ou non. Le but du générateur est de pouvoir tromper le discriminateur autant que possible. Les deux réseaux jouent l'un contre l'autre et ajustent constamment leurs paramètres, dans le but ultime de rendre le discriminateur incapable de déterminer si la sortie du réseau génératif est fausse. Un des principales contributions de GAN est la stratégie de training qui rend le discriminateur pouvoir reconnaitre la distribution appris par générateur et la distribution réelle. Et, face à des problèmes tels que la difficulté de training, il y a de nombreux améliorations et développements sur l'original tels que c-GAN
+Generative Adversarial Network (GAN) est une méthode d'apprentissage non supervisé, consistant à faire jouer deux réseaux neuronaux l'un contre l'autre. Cette méthode a été proposée en 2014 par Ian Goodfellow\cite{goodfellow2014generative}. Les GANs se composent d'un réseau génératif (générateur) et d'un réseau discriminatif (discriminateur). Dans entraîner GAN, le générateur génère un échantillon (ex. une image), tandis que son adversaire, le discriminateur essaie de distinguer si cet échantillon est réel ou non. Le but du générateur est de pouvoir tromper le discriminateur autant que possible. Les deux réseaux jouent l'un contre l'autre et ajustent constamment leurs paramètres, dans le but ultime de rendre le discriminateur incapable de déterminer si la sortie du réseau génératif est fausse. 
 
-\section{Pix2Pix}
+Un des principales contributions de GAN est la stratégie de training qui rend le discriminateur pouvoir reconnaitre la distribution appris par générateur et la distribution réelle. Et, face à des problèmes tels que la difficulté de training, il y a de nombreux améliorations et développements sur l'original tels que c-GAN, cycle-GAN, styleGAN.
+
+\section{pixp2ix} 
+pix2pix modèle propose un cadre général pour la tâche de la traduction d'image à image en combinant cGAN pour réaliser la traduction d'image du domaine source au domaine cible. Le réseau apprend non seulement la correspondance entre l'image d'entrée à l'image de sortie, mais apprennent également une fonction de perte pour entraîner cette correspondance. Cela permet d'appliquer la même approche générique à des problèmes qui, traditionnellement nécessiteraient des formulations de perte très différentes\cite{isola2017image}. 
+
+En termes de générateur, pix2pix utilise Unet comme générateur, en considérant que l'aspect de surface des images d'entrée et de sortie doit être différent alors que la structure de base doit être similaire, et que pour la tâche de traduction d'image, l'entrée et la sortie doivent partager certaines informations de base (ex. contours), ils appliquent donc une connexion de layer-skipping comme l'approche de connexion dans Unet.
+
+En termes de discriminateur, l'auteur a crée PatchGAN comme discriminateur, au lieu de  discriminateur qui base sur les distance traditionnelles L1, L2 dans les travaux précédents. L'idée de PatchGAN est de diviser l'image en partie avec over-lapping, ensuite juger la vérité ou la fausseté de chaque patch séparément. Les auteurs concluent en disant que le PatchGAN proposé peut être considéré comme une autre forme de perte de texture ou de perte de style.
+
+Avec pix2pix, si on founit 
+
+
 
 \section{BigGAN et espace de latent}

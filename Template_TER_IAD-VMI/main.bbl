@@ -76,6 +76,45 @@
       \field{title}{Generative adversarial networks}
       \field{year}{2014}
     \endentry
+    \entry{isola2017image}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=cae9f806bc99a5f19fadea538fc2db04}{%
+           family={Isola},
+           familyi={I\bibinitperiod},
+           given={Phillip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9fbb4b31963f07f34a13b375b4997338}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Jun-Yan},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=fbb5fac74ecd20c0f90a3884d6a93cdf}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Tinghui},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5a663b27298722834a8cf09bb93d8c94}{%
+           family={Efros},
+           familyi={E\bibinitperiod},
+           given={Alexei\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd9b478c7b76d20d978868251cf3ad35}
+      \strng{fullhash}{18664a8c078ce7dff4c499de4e40bf2f}
+      \strng{bibnamehash}{18664a8c078ce7dff4c499de4e40bf2f}
+      \strng{authorbibnamehash}{18664a8c078ce7dff4c499de4e40bf2f}
+      \strng{authornamehash}{dd9b478c7b76d20d978868251cf3ad35}
+      \strng{authorfullhash}{18664a8c078ce7dff4c499de4e40bf2f}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}
+      \field{title}{Image-to-image translation with conditional adversarial networks}
+      \field{year}{2017}
+      \field{pages}{1125\bibrangedash 1134}
+      \range{pages}{10}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
