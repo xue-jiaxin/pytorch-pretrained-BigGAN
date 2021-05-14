@@ -14,8 +14,8 @@ En termes de générateur, pix2pix utilise Unet comme générateur, en considér
 
 En termes de discriminateur, l'auteur a crée PatchGAN comme discriminateur, au lieu de  discriminateur qui base sur les distance traditionnelles L1, L2 dans les travaux précédents. L'idée de PatchGAN est de diviser l'image en partie avec over-lapping, ensuite juger la vérité ou la fausseté de chaque patch séparément. Les auteurs concluent en disant que le PatchGAN proposé peut être considéré comme une autre forme de perte de texture ou de perte de style.
 
-Avec pix2pix, si on founit 
-
+Avec pix2pix, si nous fournissons des pairs d'images similaires, nous pouvons former un modèle qui prend une image d'entrée et nous génère une image similaire.
 
 
 \section{BigGAN et espace de latent}
+
