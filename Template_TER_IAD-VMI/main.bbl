@@ -115,6 +115,38 @@
       \field{pages}{1125\bibrangedash 1134}
       \range{pages}{10}
     \endentry
+    \entry{brock2018large}{article}{}
+      \name{author}{3}{}{%
+        {{hash=adb20bf3d0b245b522662eed0d7cb5a2}{%
+           family={Brock},
+           familyi={B\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=913090a0d65c7a300c602f5a5a5a61e3}{%
+           family={Donahue},
+           familyi={D\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9d16b7284df92c9adaee86c37ab992df}{%
+           family={Simonyan},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3164af52b8e69894e92b64552f9e237b}
+      \strng{fullhash}{3164af52b8e69894e92b64552f9e237b}
+      \strng{bibnamehash}{3164af52b8e69894e92b64552f9e237b}
+      \strng{authorbibnamehash}{3164af52b8e69894e92b64552f9e237b}
+      \strng{authornamehash}{3164af52b8e69894e92b64552f9e237b}
+      \strng{authorfullhash}{3164af52b8e69894e92b64552f9e237b}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1809.11096}
+      \field{title}{Large scale GAN training for high fidelity natural image synthesis}
+      \field{year}{2018}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

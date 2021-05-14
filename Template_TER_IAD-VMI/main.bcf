@@ -2184,6 +2184,7 @@
   <bcf:section number="0">
     <bcf:citekey order="1">goodfellow2014generative</bcf:citekey>
     <bcf:citekey order="2">isola2017image</bcf:citekey>
+    <bcf:citekey order="3">brock2018large</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
