@@ -19,7 +19,11 @@ Avec pix2pix, si nous fournissons des pairs d'images similaires, nous pouvons fo
 
 \section{BigGAN et Espace de Latent}
 
-sda\cite{brock2018large}
-Grâce à l'avènement des GANs, les algorithmes de modélisation générative d'images ont fait de grands progrès ces dernières années pour générer des images réalistes et diverses. 
+Grâce à l'avènement des GANs, les algorithmes de modélisation générative d'images ont fait de grands progrès ces dernières années pour générer des images réalistes et diverses. Cependant, la génération d'images diverses et à haute résolution à partir d'ensembles de données complexes comme ImageNet reste une tâche difficile. BigGAN est le modèle génératif le plus grand et le mieux entrainé à ce jour. Les images générées par BigGAN atteignent un niveau de réalisme extrêmement élevé. \cite{brock2018large}
+
+Bien sûr, nous n'avons pas l'intention de former un GAN à partir de zéro, et les modèles de type BigGAN nécessitent d'énormes ressources informatiques pour être formés. Avec l'aide du BigGAN déjà bien formé sur ImageNet, nous considérons essayer de faire varier l'entrée du générateur de manière conditionnelle. Cela implique l'espace latent.
+
+Härkönen, Erik, et al\cite{harkonen2020ganspace} décrit une technique simple pour analyser les réseaux adversariaux génératifs (GAN) et créer des commandes interprétables pour la synthèse d'images, comme le changement de point de vue, le vieillissement, l'éclairage et l'heure de la journée.
+
 
 

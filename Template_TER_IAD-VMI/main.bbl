@@ -147,6 +147,43 @@
       \field{title}{Large scale GAN training for high fidelity natural image synthesis}
       \field{year}{2018}
     \endentry
+    \entry{harkonen2020ganspace}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ed3795aa1685a72d8affea55ebb6b682}{%
+           family={H{ä}rk{ö}nen},
+           familyi={H\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3ae15403d73bb9a613bdf9c281d73496}{%
+           family={Hertzmann},
+           familyi={H\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2c6172136b4a919de9b39c5f5af4bdc2}{%
+           family={Lehtinen},
+           familyi={L\bibinitperiod},
+           given={Jaakko},
+           giveni={J\bibinitperiod}}}%
+        {{hash=13acbde1d95e381ae8b4272e36d1982b}{%
+           family={Paris},
+           familyi={P\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fbb15dd2f52c2bb738a0a755815bbec}
+      \strng{fullhash}{d060f7ffe5e6db13978c544f587fd77c}
+      \strng{bibnamehash}{d060f7ffe5e6db13978c544f587fd77c}
+      \strng{authorbibnamehash}{d060f7ffe5e6db13978c544f587fd77c}
+      \strng{authornamehash}{4fbb15dd2f52c2bb738a0a755815bbec}
+      \strng{authorfullhash}{d060f7ffe5e6db13978c544f587fd77c}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2004.02546}
+      \field{title}{Ganspace: Discovering interpretable gan controls}
+      \field{year}{2020}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
