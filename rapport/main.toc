@@ -11,5 +11,10 @@
 \contentsline {section}{\numberline {3.3}BigGAN et Espace de Latent}{7}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Méthodes expérimentales}{9}{chapter.4}%
 \contentsline {section}{\numberline {4.1}pix2pix avec PASCAL}{9}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Conclusion et Perspectives}{12}{chapter.5}%
-\contentsline {chapter}{Références}{13}{chapter*.9}%
+\contentsline {section}{\numberline {4.2}Espace latent de BigGAN}{11}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Expérience 1}{11}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Expérience 2}{14}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Expérience supplémentaire, Singe ver Einstein}{16}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {5}Conclusion et Perspectives}{17}{chapter.5}%
+\contentsline {chapter}{Références}{18}{chapter*.18}%
+\contentsline {chapter}{\numberline {A}Résultat de pix2pix}{19}{appendix.A}%

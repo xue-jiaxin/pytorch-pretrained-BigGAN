@@ -9,5 +9,10 @@
 \BOOKMARK [1][-]{section.3.3}{BigGAN\040et\040Espace\040de\040Latent}{chapter.3}% 9
 \BOOKMARK [0][-]{chapter.4}{Méthodes expérimentales}{}% 10
 \BOOKMARK [1][-]{section.4.1}{pix2pix\040avec\040PASCAL}{chapter.4}% 11
-\BOOKMARK [0][-]{chapter.5}{Conclusion\040et\040Perspectives}{}% 12
-\BOOKMARK [0][-]{chapter*.9}{Références}{}% 13
+\BOOKMARK [1][-]{section.4.2}{Espace\040latent\040de\040BigGAN}{chapter.4}% 12
+\BOOKMARK [2][-]{subsection.4.2.1}{Expérience 1}{section.4.2}% 13
+\BOOKMARK [2][-]{subsection.4.2.2}{Expérience 2}{section.4.2}% 14
+\BOOKMARK [2][-]{subsection.4.2.3}{Expérience supplémentaire, Singe ver Einstein}{section.4.2}% 15
+\BOOKMARK [0][-]{chapter.5}{Conclusion\040et\040Perspectives}{}% 16
+\BOOKMARK [0][-]{chapter*.18}{Références}{}% 17
+\BOOKMARK [0][-]{appendix.A}{Résultat de pix2pix}{}% 18

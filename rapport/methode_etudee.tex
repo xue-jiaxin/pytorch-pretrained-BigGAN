@@ -20,7 +20,9 @@ Generative Adversarial Network (GAN) est une méthode d'apprentissage non superv
 
 Dans entraînement de GAN, le générateur génère un échantillon (ex. une image), tandis que son adversaire, le discriminateur essaie de distinguer si cet échantillon est réel ou non. Le but du générateur est de pouvoir tromper le discriminateur autant que possible. Les deux réseaux jouent l'un contre l'autre et ajustent constamment leurs paramètres, dans le but ultime de rendre le discriminateur incapable de déterminer si la sortie du réseau génératif est fausse. 
 
-Au début de l’étape d’entrainement, le générateur produit des données clairement fausses, et le discriminateur apprend rapidement à dire que c’est des fausses données.Au fur et à mesure que l’entrainement progresse, le générateur se rapproche de la production de données qui peuvent tromper le discriminateur.Enfin, le discriminateur a de plus en plus du mal à détecter les fausses données. Et commence à les classer comme vraies.
+Au début de l'étape d'entrainement, le générateur produit des données clairement fausses, et le discriminateur apprend rapidement à dire que c'est des fausses données.
+Au fur et à mesure que l'entrainement progresse, le générateur se rapproche de la production de données qui peuvent tromper le discriminateur.
+Enfin, le discriminateur a de plus en plus du mal à détecter les fausses données. Et commence à les classer comme vraies.
 
 
 Un des principales contributions de GAN est la stratégie de training qui rend le discriminateur pouvoir reconnaitre la distribution appris par générateur et la distribution réelle. Et, face à des problèmes tels que la difficulté de training, il y a de nombreux améliorations et développements sur l'original tels que c-GAN, cycle-GAN, styleGAN.
